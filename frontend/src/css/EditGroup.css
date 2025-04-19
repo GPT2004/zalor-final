@@ -1,0 +1,222 @@
+/* EditGroup.css */
+
+.edit-group-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.group-info-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.group-avatar-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.group-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #ccc;
+}
+
+.group-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.group-info-content {
+  font-size: 16px;
+  width: 100%;
+}
+
+.group-description h4,
+.members-section p,
+.add-member-section h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.description-display {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.description-display p {
+  margin-bottom: 8px;
+}
+
+.description-display button {
+  padding: 6px 10px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.description-display button:hover {
+  background-color: #0056b3;
+}
+
+.description-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.form-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form-actions button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-actions button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+
+.form-actions button[type="button"] {
+  background-color: #dc3545;
+  color: white;
+}
+
+.members-section {
+  margin-top: 20px;
+}
+
+.dropdown-toggle {
+  padding: 6px 12px;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.members-dropdown {
+  margin-top: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.member-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.remove-member-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-member-section {
+  margin-top: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.searched-users {
+  margin-top: 10px;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.user-item button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.leave-group-button,
+.delete-group-button {
+  margin-top: 20px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.leave-group-button {
+  background-color: #ffc107;
+  color: black;
+}
+
+.delete-group-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}

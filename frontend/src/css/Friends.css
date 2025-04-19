@@ -1,0 +1,81 @@
+.friends-container {
+    padding: 20px;
+    background-color: #f0f2f5;
+    height: 100vh;
+  }
+  
+  .friends-header {
+    background-color: #1a2526;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .friends-header h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-top: 15px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: #2a3b3c;
+    color: white;
+  }
+  
+  .search-bar button {
+    padding: 8px;
+    border: none;
+    background-color: #00c4b4;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .friends-list {
+    margin-top: 20px;
+  }
+  
+  .friends-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friends-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .friends-list button {
+    padding: 8px 16px;
+    background-color: #00c4b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

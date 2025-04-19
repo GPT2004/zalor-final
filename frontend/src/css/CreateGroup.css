@@ -1,0 +1,153 @@
+.create-group {
+  /* Đảm bảo các kiểu dáng chỉ áp dụng trong phạm vi của .create-group */
+}
+
+.create-group .create-group-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #1a2526;
+  color: white;
+  height: 100vh;
+}
+
+.create-group .create-group-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.create-group .create-group-header button {
+  background: #ff4d4f;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.create-group .create-group-header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.create-group .create-group-content {
+  width: 100%;
+  max-width: 600px;
+}
+
+.create-group .form-group {
+  margin-bottom: 20px;
+}
+
+.create-group .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.create-group .form-group input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background: #2c3e50;
+  color: white;
+}
+
+.create-group .search-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.create-group .search-bar input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background: #2c3e50;
+  color: white;
+}
+
+.create-group .search-bar button {
+  padding: 8px;
+  background: #00c4b4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.create-group .search-bar button:hover {
+  background: #009b8e;
+}
+
+.create-group .searched-users,
+.create-group .selected-members {
+  margin-top: 10px;
+}
+
+.create-group .searched-users h4,
+.create-group .selected-members h4 {
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+.create-group .user-item,
+.create-group .member-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #2c3e50;
+  background-color: #2c3e50;
+  color: white;
+}
+
+.create-group .user-item:last-child,
+.create-group .member-item:last-child {
+  border-bottom: none;
+}
+
+.create-group .user-item button,
+.create-group .member-item button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-group .user-item button {
+  background: #00c4b4;
+  color: white;
+}
+
+.create-group .member-item button {
+  background: #ff4d4f;
+  color: white;
+}
+
+.create-group .form-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.create-group .form-actions button {
+  padding: 10px 20px;
+  background-color: #00c4b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-group .form-actions button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
