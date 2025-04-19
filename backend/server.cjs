@@ -23,7 +23,6 @@ const io = new Server(server, {
 
 // Gắn Socket.IO vào app để sử dụng trong routes
 app.set('socketio', io);
-const __dirname = path.resolve();
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "../frontend/build")));
 
